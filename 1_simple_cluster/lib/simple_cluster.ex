@@ -1,3 +1,3 @@
 defmodule SimpleCluster do
-  defdelegate ping, to: LibclusterCluster.Ping
+  defdelegate ping, to: SimpleCluster.Ping
 end
